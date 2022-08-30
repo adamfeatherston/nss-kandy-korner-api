@@ -1,0 +1,91 @@
+{
+    "users": [
+        {"id":1,"name":"Fredra Connah","email":"fconnah0@elpais.com","isStaff":true},
+        {"id":2,"name":"Hally Brauns","email":"hbrauns1@opera.com","isStaff":true},
+        {"id":3,"name":"Leanora Treske","email":"ltreske2@webnode.com","isStaff":false},
+        {"id":4,"name":"Vincents Crinson","email":"vcrinson3@weather.com","isStaff":false},
+        {"id":5,"name":"Waverly Tollady","email":"wtollady4@exblog.jp","isStaff":false},
+        {"id":6,"name":"Lauraine Klambt","email":"lklambt5@youtu.be","isStaff":false},
+        {"id":7,"name":"Enriqueta Cust","email":"ecust6@walmart.com","isStaff":true},
+        {"id":8,"name":"Levi Gatcliff","email":"lgatcliff7@salon.com","isStaff":false},
+        {"id":9,"name":"Valli Charnock","email":"vcharnock8@oracle.com","isStaff":true},
+        {"id":10,"name":"Max Lutwidge","email":"mlutwidge9@wikipedia.org","isStaff":false},
+        {"id":11,"name":"Mable Kenford","email":"mkenforda@artisteer.com","isStaff":false},
+        {"id":12,"name":"Griz Otridge","email":"gotridgeb@samsung.com","isStaff":false},
+        {"id":13,"name":"Tedie Ather","email":"tatherc@dyndns.org","isStaff":false},
+        {"id":14,"name":"Si Di Bartolommeo","email":"sdid@google.co.jp","isStaff":true},
+        {"id":15,"name":"Delores Leetham","email":"dleethame@apache.org","isStaff":false},
+        {"id":16,"name":"Dru Davidovics","email":"ddavidovicsf@ebay.co.uk","isStaff":true},
+        {"id":17,"name":"Joeann Benck","email":"jbenckg@mtv.com","isStaff":false},
+        {"id":18,"name":"Flem Aseef","email":"faseefh@goo.gl","isStaff":false},
+        {"id":19,"name":"Phip Folliott","email":"pfolliotti@forbes.com","isStaff":false},
+        {"id":20,"name":"Gaby Scarth","email":"gscarthj@alexa.com","isStaff":false}
+    ],
+    "customers": [
+        {"id":1,"loyaltyNumber":58673,"userId":3},
+        {"id":2,"loyaltyNumber":21357,"userId":4},
+        {"id":3,"loyaltyNumber":63223,"userId":5},
+        {"id":4,"loyaltyNumber":64610,"userId":6},
+        {"id":5,"loyaltyNumber":12456,"userId":8},
+        {"id":6,"loyaltyNumber":42401,"userId":10},
+        {"id":7,"loyaltyNumber":47046,"userId":11},
+        {"id":8,"loyaltyNumber":60820,"userId":12},
+        {"id":9,"loyaltyNumber":17843,"userId":13},
+        {"id":10,"loyaltyNumber":58378,"userId":15},
+        {"id":11,"loyaltyNumber":60514,"userId":17},
+        {"id":12,"loyaltyNumber":41588,"userId":18},
+        {"id":13,"loyaltyNumber":93056,"userId":19},
+        {"id":14,"loyaltyNumber":85556,"userId":20}
+    ],
+    "employees": [
+        {"id":1,"startDate":"08/30/2021","payRate":28.24,"userId":1,"locationId":1},
+        {"id":2,"startDate":"09/13/2021","payRate":27.67,"userId":2,"locationId":1},
+        {"id":3,"startDate":"11/12/2021","payRate":18.18,"userId":7,"locationId":2},
+        {"id":4,"startDate":"05/09/2022","payRate":27.44,"userId":9,"locationId":2},
+        {"id":5,"startDate":"02/09/2022","payRate":26.6,"userId":14,"locationId":3},
+        {"id":6,"startDate":"11/05/2021","payRate":18.93,"userId":16,"locationId":3}
+    ],
+    "locations": [
+        {"id":1,"address":"6020 Prairie Rose Lane","squareFt":513.1},
+        {"id":2,"address":"22858 Mitchell Center","squareFt":1074.14},
+        {"id":3,"address":"5 Caliangt Crossing","squareFt":926.37}
+    ],
+    "productTypes": [
+        {"id":1,"type":"Soft N Sure Antiseptic"},
+        {"id":2,"type":"Fexofenadine"},
+        {"id":3,"type":"Ferrum sidereum Pancreas 10/4 Special Order"},
+        {"id":4,"type":"Sandy Beige Always color stay-on Makeup Broad Spectrum SPF 15"},
+        {"id":5,"type":"Acetaminophen And Codeine Phosphate"}
+    ],
+    "products": [
+        {"id":1,"name":"Phenylephrine Hydrochloride","typeId":1,"pricePerUnit":8},
+        {"id":2,"name":"Festuca elatior","typeId":5,"pricePerUnit":2},
+        {"id":3,"name":"Hydrocortisone","typeId":4,"pricePerUnit":9},
+        {"id":4,"name":"ZINC OXIDE","typeId":3,"pricePerUnit":8},
+        {"id":5,"name":"Amlodipine Besylate","typeId":5,"pricePerUnit":1},
+        {"id":6,"name":"OCTINOXATE","typeId":5,"pricePerUnit":5},
+        {"id":7,"name":"Saline","typeId":3,"pricePerUnit":8},
+        {"id":8,"name":"Heparin Sodium","typeId":1,"pricePerUnit":6},
+        {"id":9,"name":"ANGELICA DAHURICA ROOT","typeId":4,"pricePerUnit":8},
+        {"id":10,"name":"Diphenhydramine HCl","typeId":4,"pricePerUnit":8},
+        {"id":11,"name":"HELIANTHEMUM NUMMULARIUM FLOWER","typeId":1,"pricePerUnit":1},
+        {"id":12,"name":"Doxazosin Mesylate","typeId":4,"pricePerUnit":6},
+        {"id":13,"name":"TITANIUM DIOXIDE","typeId":4,"pricePerUnit":9},
+        {"id":14,"name":"Zinc Oxide","typeId":4,"pricePerUnit":5},
+        {"id":15,"name":"Oxybenzone","typeId":1,"pricePerUnit":4},
+        {"id":16,"name":"Acetaminophen","typeId":4,"pricePerUnit":6},
+        {"id":17,"name":"Pyrithione Zinc","typeId":3,"pricePerUnit":6},
+        {"id":18,"name":"clindamycin phosphate","typeId":1,"pricePerUnit":9},
+        {"id":19,"name":"Enoxaparin Sodium","typeId":2,"pricePerUnit":4},
+        {"id":20,"name":"Metformin Hydrochloride","typeId":4,"pricePerUnit":3}
+    ], 
+    "purchases": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "locationId": 1,
+            "productId": 4,
+            "numberPurchased": 2
+    }
+    ]
+}
